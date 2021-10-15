@@ -69,7 +69,7 @@ class FlowSpec(object):
             Set to True if the flow is invoked from __main__ or the command line
         """
 
-        self.name = self.__class__.__name__
+        self.name = 'TestConv_' + self.__class__.__name__
 
         self._datastore = None
         self._transition = None
